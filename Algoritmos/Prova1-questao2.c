@@ -1,31 +1,22 @@
-/*
-Instituto Federal do Triângulo Mineiro- IFTM
-Algoritmos e Linguagem de Programação- Profa. Daniela Resende
-Tecnólogo em Análise e Desenvolvimento de Sistemas
-João Pedro Teixeira Justino- 1° Período
-
-Prova 1
-Questão 2 - Calculo de IMC para idosos
-*/
 #include <stdio.h>
 #include <stdlib.h>
 
 int main()
 {
-    // Definição das variáveis a serem utilizadas e seus tipos
+    // Definicao das variaveis a serem utilizadas e seus tipos
     float peso = 0.0, altura = 0.0, IMC = 0.0, percentMulheres = 0.0, percentHomens = 0.0, percentMulheresObesas = 0.0,
         percentHomensObesos= 0.0;
     int sexo = 0, mulheres = 0, homens = 0, mulheresObesas = 0, homensObesos = 0;
 
-    // Cabeçalho de entrada
+    // Cabecalho de entrada
     printf("-------------------\n");
     printf("  IMC PARA IDOSOS\n");
     printf("-------------------\n");
     printf("AVISO: utilize apenas com maiores de 65 anos\n");
     printf("\n");
 
-    // For onde estará a execução em loop da coleta de informações das pessoas
-    for(int i = 1; i <= 100; i++){ // Foi usado o "i" iniciando em "1" para utiliza-lo nos prints indicando qual o número da pessoa atual
+    // For onde estara a execuÃ§Ã£o em loop da coleta de informaÃ§Ãµes das pessoas
+    for(int i = 1; i <= 100; i++){ // Foi usado o "i" iniciando em "1" para utiliza-lo nos prints indicando qual o nÃºmero da pessoa atual
         printf("%d.o pessoa\n", i);
         printf("Altura(m): ");
         scanf("%f",&altura);
@@ -39,9 +30,9 @@ int main()
         printf("Sexo: [1] Feminino\n");
         printf("      [2] Masculino\n");
         scanf("%i",&sexo);
-        // Indicação de qual é o sexo da pessoa
+        // Indicacao de qual Ã© o sexo da pessoa
 
-        switch(sexo){ // Foi utilizado o switch case para fazer a distinção do IMC feminino e do masculino
+        switch(sexo){ // Foi utilizado o switch case para fazer a distinÃ§Ã£o do IMC feminino e do masculino
             case 1: // Caso 1 para mulheres
                 mulheres++; // Contador de mulheres para o calculo da porcentagem final
 
@@ -110,18 +101,18 @@ int main()
 
             default: // Default para prevenir erros na hora de indicar o sexo
                 printf("Insira um numero valido\n");
-                i--; // Decrescimo da variável "i" para que os erros não sejam contados
+                i--; // Decrescimo da variavel "i" para que os erros nÃ£o sejam contados
         }
     }
 
-    // Calculos dos percentuais finais, o (float) foi utilizado para transformar as variáveis int em float, para que não ocorra
+    // Calculos dos percentuais finais, o (float) foi utilizado para transformar as variaveis int em float, para que nao ocorra
     // erros nos calculos
     percentMulheres = (100 * (float)mulheres)/ 100;
     percentHomens = (100 * (float)homens)/ 100;
     percentMulheresObesas = (100 * (float)mulheresObesas)/ (float)mulheres;
     percentHomensObesos = (100 * (float)homensObesos)/ (float)homens;
 
-    // Print indicando para o usuário as informações coletadas
+    // Print indicando para o usuario as informacoes coletadas
     printf("O percentual de mulheres idosas que calcularam o IMC foi de %.2f%%, dentre esse total %.2f%% estao obesas.\n",
            percentMulheres, percentMulheresObesas);
     printf("O percentual de homens idosos que calcularam o IMC foi de %.2f%%, dentre esse total %.2f%% estao obesos.\n",
