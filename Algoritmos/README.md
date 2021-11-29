@@ -6,7 +6,7 @@ A professora Daniela optou por ensinar lógica de programação em C pois no mê
 De qualquer modo temos que reconhecer que C chegou quando aqui era tudo mato e asfaltou todo nosso trajeto até aqui.<br>
 <br>
 <strong>Prova1-questao1.c</strong><br>
-Primeira questão da primeira prova de algoritmos. A proposta era criar um programa para calcular raizes de equações.
+Primeira questão da primeira prova de algoritmos. A proposta era criar um programa para calcular raizes de equações.<br>
 <br>
 <strong>Prova1-questao2.c</strong><br>
 Segunda questão da primeira prova de algoritmos. A proposta era criar um programa para calcular IMC de 100 idosos e mostrar sua classificação de acordo com o IMC, o percentual de mulheres e de homens informados, o percentual de mulheres e homens, separadamente, nas faixas de obesidade.<br>
