@@ -16,6 +16,15 @@ Terceira questão da primeira prova de algoritmos. A proposta era criar um progr
 - Ao comprar apenas latas de 18 litros: mostre o valor e o número de latas<br>
 - Ao comprar apenas galões de 3,6 litros: mostre o valor e o número de galões<br>
 - Ao misturar latas e galões, de forma que o gasto de tinta seja o menor: mostre o valor e o número de latas e galões<br>
-
-
- 
+<br>
+<strong>Prova2-questao1.c</strong><br>
+Primeira questão da segunda prova de algoritmos. A proposta era criar um programa para o desvio padrão de um conjunto de valores.<br>
+<br>
+<strong>Prova2-questao2.c</strong><br>
+Segunda questão da segunda prova de algoritmos. A proposta era criar um programa para monitorar a temperatura de uma estufa, o máximo de temperaturas é 24, uma para cada hora do dia. O vetor mantem os últimos 24 valores e a cada nova leitura de temperatura o valor mais antigo é descartado.<br>
+<br>
+<strong>Prova2-questao3.c</strong><br>
+Terceira questão da segunda prova de algoritmos. A proposta era criar um programa para registrar o índice pluviométrico de uma mapa no formato de uma matriz 6 x 9, cada região recebe um índice. O programa deve ter os seguintes outputs:<br>
+- Deverá receber do usuário as quantidades de chuva lidas pelas estações pluviométricas e estas quantidades deverão ser armazenadas na matriz;<br>
+- Exibir ao usuário todas as regiões do estado que se enquadram nas categorias 5, 6 ou 7;<br>
+- Retornar o maior índice pluviométrico (quantidade de chuva) do estado, e sua região.<br>
