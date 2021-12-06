@@ -15,7 +15,7 @@ Segunda questão da primeira prova de algoritmos. A proposta era criar um progra
 Terceira questão da primeira prova de algoritmos. A proposta era criar um programa para ajudar uma loja de tintas, o programa deve receber o tamanho em metros quadrados da área a ser pintada e os preços das latas e galões de tinta, considerando que a cobertura de tinta é de 1 litro para cada 6 metros quadrados deve ser feito o orçamento em 3 situações diferentes:<br>
 - Ao comprar apenas latas de 18 litros: mostre o valor e o número de latas<br>
 - Ao comprar apenas galões de 3,6 litros: mostre o valor e o número de galões<br>
-- Ao misturar latas e galões, de forma que o gasto de tinta seja o menor: mostre o valor e o número de latas e galões<br>
+ -Ao misturar latas e galões, de forma que o gasto de tinta seja o menor: mostre o valor e o número de latas e galões<br>
 <br>
 <strong>Prova2-questao1.c</strong><br>
 Primeira questão da segunda prova de algoritmos. A proposta era criar um programa para o desvio padrão de um conjunto de valores.<br>
