@@ -1,12 +1,3 @@
-/*
-Instituto Federal do Triângulo Mineiro- IFTM
-Algoritmos e Linguagem de Programação- Profa. Daniela Resende
-Tecnólogo em Análise e Desenvolvimento de Sistemas
-João Pedro Teixeira Justino- 1° Período
-
-Prova 2
-Questão 1 - Calculo de desvio padrão
-*/
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
@@ -51,7 +42,7 @@ int main()
     // Laco for para que seja feita a somatoria
     for (int i = 0; i < quantNumeros; i++){
         somatoria += pow((arrayNumeros[i] - medAritimetica), 2);
-        // Variavel "somatoria" tambem inicializada com 0 para que não aconteca problemas na soma dos valores
+        // Variavel "somatoria" tambem inicializada com 0 para que nÃ£o aconteca problemas na soma dos valores
         // Foi utilizada a funcao "pow()" da biblioteca "math.h" para a realizacao da potenciacao da subtracao dos
         // numeros pela media
     }
