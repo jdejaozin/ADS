@@ -1,19 +1,10 @@
-/*
-Instituto Federal do Triângulo Mineiro- IFTM
-Algoritmos e Linguagem de Programação- Profa. Daniela Resende
-Tecnólogo em Análise e Desenvolvimento de Sistemas
-João Pedro Teixeira Justino- 1° Período
-
-Prova 2
-Questão 2 - Monitoramento de temperatura em estufa
-*/
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
 
 int main()
 {
-    // Declaração das variaveis que serão utilizadas
+    // DeclaraÃ§Ã£o das variaveis que serÃ£o utilizadas
     int autoFill;
     float vetorHoraTemp[23], novaEntrada = 1, somaTemperatura = 0, mediaTemperatura= 0;
 
