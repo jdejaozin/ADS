@@ -1,27 +1,18 @@
-/*
-Instituto Federal do Triângulo Mineiro- IFTM
-Algoritmos e Linguagem de Programação- Profa. Daniela Resende
-Tecnólogo em Análise e Desenvolvimento de Sistemas
-João Pedro Teixeira Justino- 1° Período
-
-Prova 2
-Questão 3 - Registro pluviométrico
-*/
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
 
 int main()
 {
-    // Declaração da variaveis
+    // DeclaraÃ§Ã£o da variaveis
     int regioes[6][9], volumePluviometrico = 0, maiorIndice = 0, indiceI, indiceJ;
 
-    // Cabecalho de introdução do programa
+    // Cabecalho de introduÃ§Ã£o do programa
     printf("----PREVENCAO DE CHUVAS NO RIO DE JANEIRO----\n");
     printf("---------------------------------------------\n");
     printf("Leituras das estacoes pluviometricas\n");
 
-    // Laco for aninhado para que os valores pluviometricos das regições sejam inseridos
+    // Laco for aninhado para que os valores pluviometricos das regiÃ§Ãµes sejam inseridos
     for(int i = 0; i < 6; i++){
         // Laco for que ira representar as linhas da matriz
         for (int j = 0; j < 9; j++){
@@ -36,12 +27,12 @@ int main()
         printf("\n");
     }
 
-    // Como o programa irá mostrar apenas os indices 5, 6 e 7 e nao havera processos relevantes com os outros indices
+    // Como o programa irÃ¡ mostrar apenas os indices 5, 6 e 7 e nao havera processos relevantes com os outros indices
     // foi optado fazer apenas dos indices relevantes para o resultado final, assim poupando processamento
     printf("Regioes com categoria 5:\n");
     for(int i = 0; i < 6; i++){
         for (int j = 0; j < 9; j++){
-            // if para comparação dos volumes com a tabela para identificar as regioes com indice 5
+            // if para comparaÃ§Ã£o dos volumes com a tabela para identificar as regioes com indice 5
             if(regioes[i][j] >= 61 && regioes[i][j] <= 75){
                 // printf para mostrar as coordenadas das regioes que se enquadram no respectivo indice
                 printf("(%d , %d)\n", i+1, j+1);
@@ -53,7 +44,7 @@ int main()
     printf("Regioes com categoria 6:\n");
     for(int i = 0; i < 6; i++){
         for (int j = 0; j < 9; j++){
-            // if para comparação dos volumes com a tabela para identificar as regioes com indice 6
+            // if para comparaÃ§Ã£o dos volumes com a tabela para identificar as regioes com indice 6
             if(regioes[i][j] >= 76 && regioes[i][j] <= 90){
                 // printf para mostrar as coordenadas das regioes que se enquadram no respectivo indice
                 printf("(%d , %d)\n", i+1, j+1);
@@ -65,7 +56,7 @@ int main()
     printf("Regioes com categoria 7:\n");
     for(int i = 0; i < 6; i++){
         for (int j = 0; j < 9; j++){
-            // if para comparação dos volumes com a tabela para identificar as regioes com indice 7
+            // if para comparaÃ§Ã£o dos volumes com a tabela para identificar as regioes com indice 7
             if(regioes[i][j] > 90){
                 // printf para mostrar as coordenadas das regioes que se enquadram no respectivo indice
                 printf("(%d , %d)\n", i+1, j+1);
@@ -74,7 +65,7 @@ int main()
         }
     }
 
-    // Laco for para identificar qual é o maior volume pluviometrico
+    // Laco for para identificar qual Ã© o maior volume pluviometrico
     for(int i = 0; i < 6; i++){
         for (int j = 0; j < 9; j++){
             // Condicao para encontrar o maior indice
