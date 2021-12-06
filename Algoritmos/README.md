@@ -25,6 +25,7 @@ Segunda questão da segunda prova de algoritmos. A proposta era criar um program
 <br>
 <strong>Prova2-questao3.c</strong><br>
 Terceira questão da segunda prova de algoritmos. A proposta era criar um programa para registrar o índice pluviométrico de uma mapa no formato de uma matriz 6 x 9, cada região recebe um índice. O programa deve ter os seguintes outputs:<br>
+
 - Deverá receber do usuário as quantidades de chuva lidas pelas estações pluviométricas e estas quantidades deverão ser armazenadas na matriz<br>
 - Exibir ao usuário todas as regiões do estado que se enquadram nas categorias 5, 6 ou 7<br>
 - Retornar o maior índice pluviométrico (quantidade de chuva) do estado, e sua região<br>
