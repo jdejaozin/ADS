@@ -1,19 +1,10 @@
-/*
-Instituto Federal do Triângulo Mineiro- IFTM
-Algoritmos e Linguagem de Programação- Profa. Daniela Resende
-Tecnólogo em Análise e Desenvolvimento de Sistemas
-João Pedro Teixeira Justino- 1° Período
-
-Trabalho Prático - Perfil IFTM
-*/
-
 #include <stdio.h>
 #include <stdlib.h>
 
-// Definicao das variáveis no escopo global do programa, serao as variaveis que serao utilizadas globalmente
+// Definicao das variÃ¡veis no escopo global do programa, serao as variaveis que serao utilizadas globalmente
 int codigo[30], idade[30], media_notas[30], disciplina_favorita[30], perfil = 0;
 char nome[30][40], sexo[30], estado_civil[30], profissao[30];
-// No nome tambem pode ser utilizado um ponteiro para alocar 30 nomes com o máximo de 40 caracter
+// No nome tambem pode ser utilizado um ponteiro para alocar 30 nomes com o mÃ¡ximo de 40 caracter
 // ou utilizar o modelo matriz para realizar tal acao
 
 // Funcao para inicilar perfis
@@ -60,11 +51,11 @@ void recebePerfis()
         fflush(stdin);
         scanf("%d", &disciplina_favorita[perfil]); // Variavel de disciplina favorita do aluno
 
-        perfil++; // Acrescimo a variavel perfil para fazer a contagem de quantos já foram criados
+        perfil++; // Acrescimo a variavel perfil para fazer a contagem de quantos jÃ¡ foram criados
 
     // Condicao para caso atinja o maximo de 30 perfis
     }else if(perfil == 30){
-        printf("Não é possível adicionar mais perfis");
+        printf("NÃ£o Ã© possÃ­vel adicionar mais perfis");
     }
 
 }
@@ -163,7 +154,7 @@ void perfilPiorMediaNotas()
 
     // Laco for para percorrer o vetor das medias para achar a menor
     for(int i = 0; i < perfil; i++){
-        // Condicional para verificar se a variavel "menorMedia" é maior que o valor do vetor
+        // Condicional para verificar se a variavel "menorMedia" Ã© maior que o valor do vetor
         if(menorMedia > media_notas[i]){
             menorMedia = media_notas[i]; // Caso o valor do vetor seja menor o variavel "menorMedia" recebe o valor do vetor
             menorMFinal = i; // Variavel "menorMFinal" recebendo o indice que corresponde aos vetores correlacionados com a menor media
@@ -198,7 +189,7 @@ int main()
     int opcao;
     char opcaoEstadoCivil, opcaoProfissao, sexoIdade;
 
-    // Laco while com condição de parada quando o usuario digitar 7
+    // Laco while com condiÃ§Ã£o de parada quando o usuario digitar 7
     while(opcao != 7){
 
         // Output do menu do programa
