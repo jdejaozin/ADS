@@ -1,12 +1,3 @@
-/*
-Instituto Federal do Triângulo Mineiro- IFTM
-Algoritmos e Linguagem de Programação- Profa. Daniela Resende
-Tecnólogo em Análise e Desenvolvimento de Sistemas
-João Pedro Teixeira Justino- 1° Período
-
-Prova 3
-Questão 1 - Calculo de seguro
-*/
 #include <stdio.h>
 #include <stdlib.h>
 
